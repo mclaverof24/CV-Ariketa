@@ -42,3 +42,161 @@ body {
   line-height: 1.5;
   font-size: var(--testu-normala);
 }
+
+
+/* Egitura Nagusia */
+.orria {
+  width: min(1180px, 94%); 
+  margin: 0 auto;
+  padding: var(--tartea) 0 calc(var(--tartea) * 2); 
+  display: flex;        
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0;
+}
+
+/* ALBO-BARRA */
+.albo-barra {
+  flex: 0 0 min(300px, 32%);
+  position: sticky;     
+  top: var(--tartea);
+  background-color: var(--hondo-argia);
+  border: 1px solid var(--ertza);
+  border-radius: var(--erradio-handia); 
+  border-top-right-radius: 0; 
+  border-bottom-right-radius: 0;
+  padding: calc(var(--tartea) * 1.2);
+  display: flex;            
+  flex-direction: column;
+  gap: calc(var(--tartea) * 1.1);
+}
+
+.argazki-blokea {
+  display: flex;         
+  justify-content: center;
+}
+
+.argazkia {
+  width: min(180px, 55vw); 
+  aspect-ratio: 1 / 1;      
+  border-radius: var(--erradio-handia); 
+  object-fit: cover;
+  border: 4px solid var(--zuria);
+  box-shadow: 0 6px 18px rgba(169, 0, 8, 0.2);
+}
+
+.atal-izenburua {
+  color: var(--gorria);
+  font-size: var(--testu-ertaina); 
+  letter-spacing: 0.03em;
+  margin-bottom: var(--tarte-txikia);
+}
+
+
+.datu-lerroa {
+  margin-bottom: var(--tarte-txikia);
+}
+
+.datu-izena {
+  display: block;
+  font-size: var(--testu-txikia);
+  color: var(--testu-grisa);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.datu-balioa {
+  font-size: var(--testu-normala);
+}
+
+/* Trebetasuna */
+.trebetasuna {
+  margin-bottom: var(--tarte-txikia);
+}
+
+.trebetasuna-goiburua {
+  display: flex;               
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.3rem;
+}
+
+.puntuazioa {
+  font-weight: 700;
+  color: var(--gorria);
+}
+
+.barra {
+  height: calc(var(--testu-txikia) * 0.5); 
+  background-color: var(--ertza);
+  border-radius: var(--erradio-biribila); 
+  overflow: hidden;
+}
+
+.betegarria {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gorria), var(--gorri-argia));
+  border-radius: var(--erradio-biribila);
+}
+
+/* Etiketa zerrenda */
+.etiketa-zerrenda {
+  display: flex;  
+  flex-wrap: wrap;
+  gap: var(--tarte-txikia);
+}
+
+.etiketa {
+  background-color: var(--zuria);
+  border: 1px solid var(--gorria);
+  color: var(--gorria);
+  font-size: var(--testu-txikia);
+  font-weight: 600;
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--erradio-biribila); /* forma de "píldora" */
+}
+
+
+.datu-ilara {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--ertza);
+}
+
+.datu-ilara:last-child {
+  border-bottom: none; 
+}
+
+
+.txapa {
+  background-color: var(--gorria);
+  color: #fff;
+  font-size: var(--testu-txikia);
+  font-weight: 600;
+  padding: 0.25rem 0.7rem;
+  border-radius: var(--erradio-biribila);
+}
+
+.txapa-unekoa {
+  background-color: var(--gorri-iluna); 
+}
+
+/* Zita */
+.aipua {
+  background-color: var(--gorri-iluna);
+  color: #fff;
+  padding: var(--tartea);
+  border-radius: var(--erradio-ertaina);
+}
+
+.aipua p {
+  font-style: italic;
+  margin-bottom: 0.6rem;
+}
+
+.aipua cite {
+  font-size: var(--testu-txikia);
+  opacity: 0.8;
+}
