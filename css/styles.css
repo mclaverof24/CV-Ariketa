@@ -1,0 +1,44 @@
+
+:root {
+  /* --- Koloreak --- */
+  --gorria: #d71920;  
+  --gorri-iluna: #a90008;   
+  --gorri-argia: #ff4b52;   
+  --hondo-argia: #fbebec;  
+  --zuria: #ffffff;     
+  --testua: #1c2b3a;        
+  --testu-grisa: #6b747c;  
+  --ertza: #f0d7d8;         
+
+  /* Ertzak */
+  --erradio-txikia: 0.4rem;
+  --erradio-ertaina: 0.9rem;
+  --erradio-handia: 1.6rem;
+  --erradio-biribila: 999px; 
+
+  /* Tarteak */
+  --tartea: 1.5rem;
+  --tarte-txikia: calc(var(--tartea) / 2); 
+
+  /* Letra Tamainak */
+  --testu-txikia: 0.85rem;
+  --testu-normala: 1rem;
+  --testu-ertaina: 1.2rem;
+  --testu-handia: 1.6rem;
+  --testu-oso-handia: max(2rem, 5vw);
+}
+
+/* Reset básico: quita márgenes/padding por defecto del navegador y aplica box-sizing a todo */
+* {
+  box-sizing: border-box; /* el padding y el borde se cuentan DENTRO del ancho/alto del elemento */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: var(--zuria);
+  color: var(--testua);
+  line-height: 1.5;
+  font-size: var(--testu-normala);
+}
