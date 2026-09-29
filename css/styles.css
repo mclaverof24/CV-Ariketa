@@ -393,3 +393,31 @@ th {
   color: var(--testu-grisa); 
   font-weight: 700;
 }
+
+
+/* Sección dividida */
+.zutabe-bikoitza {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: calc(var(--tartea) * 1.2); 
+}
+
+/* Egiaztapenak */
+.egiaztapen-zerrenda {
+  list-style: none;
+}
+
+.egiaztapen-zerrenda li {
+  position: relative;
+  padding-left: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.egiaztapen-zerrenda li::before {
+  content: "✓";           
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--gorria);
+  font-weight: 700;
+}
