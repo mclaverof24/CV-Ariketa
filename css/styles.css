@@ -200,3 +200,83 @@ body {
   font-size: var(--testu-txikia);
   opacity: 0.8;
 }
+
+/* EDUKI NAGUSIA */
+.eduki-nagusia {
+  flex: 1;      
+  min-width: 0; 
+  display: flex;    
+  flex-direction: column;
+  gap: var(--tartea);
+}
+
+/* Goiburua */
+.goiburua {
+  color: #fff;
+  border-radius: var(--erradio-handia);
+  border-top-left-radius: 0; 
+  border-bottom-left-radius: 0;
+  padding: calc(var(--tartea) * 1.4);
+  background:
+    linear-gradient(135deg, rgba(215, 25, 32, 0.85), rgba(169, 0, 8, 0.9)), 
+    url("../img/SanMames.jpg") center / cover no-repeat;          
+}
+
+
+.gainidazkia {
+  font-size: var(--testu-txikia);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+}
+
+.goiburu-izenburua {
+  font-size: var(--testu-oso-handia); 
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.goiburu-izenburua span {
+  color: #ffe3e4; 
+}
+
+.goiburu-azpititulua {
+  font-size: var(--testu-ertaina);
+  opacity: 0.92;
+  margin-bottom: var(--tartea);
+}
+
+.goiburu-datuak {
+  display: flex;       
+  flex-wrap: wrap;
+  gap: var(--tarte-txikia);
+}
+
+.txapa-gardena {
+  background-color: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 0.35rem 0.9rem;
+  border-radius: var(--erradio-biribila);
+  font-size: var(--testu-txikia);
+}
+
+/* Aurkezpena */
+.aurkezpena {
+  background-color: var(--gorri-iluna);
+  color: #fff;
+  border-radius: var(--erradio-handia);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: calc(var(--tartea) * 1.2);
+}
+
+.aurkezpena h2 {
+  font-size: var(--testu-handia);
+  margin-bottom: 0.7rem;
+}
+
+.aurkezpena p {
+  color: #ffe3e4;
+  max-width: 65ch;
+}
