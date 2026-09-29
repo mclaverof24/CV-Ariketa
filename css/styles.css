@@ -280,3 +280,116 @@ body {
   color: #ffe3e4;
   max-width: 65ch;
 }
+
+
+.atala {
+  background-color: var(--zuria);
+  border: 1px solid var(--ertza);
+  border-radius: var(--erradio-handia);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: calc(var(--tartea) * 1.2);
+}
+
+/* Esperientzia */
+.esperientzia-txartela {
+  border-left: 3px solid var(--gorria);
+  padding: 0 0 var(--tartea) var(--tartea);
+  margin-bottom: var(--tartea);
+}
+
+.esperientzia-txartela:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0; 
+}
+
+.esperientzia-goiburua {
+  display: flex;           
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--tarte-txikia);
+  flex-wrap: wrap;          
+}
+
+.esperientzia-goiburua h3 {
+  font-size: var(--testu-ertaina);
+  color: var(--gorria);
+}
+
+.esperientzia-datuak {
+  color: var(--testu-grisa);
+  font-size: var(--testu-txikia);
+  margin: 0.3rem 0 0.6rem;
+}
+
+.esperientzia-txartela ul {
+  padding-left: 1.2rem;
+}
+
+.esperientzia-txartela li {
+  margin-bottom: 0.3rem;
+}
+
+/* Formakuntza */
+.formakuntza-sareta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); 
+  gap: var(--tartea); 
+}
+
+.formakuntza-txartela {
+  background-color: var(--hondo-argia);
+  border-radius: var(--erradio-ertaina);
+  padding: var(--tarte-txikia);
+}
+
+.formakuntza-txartela .zenbakia {
+  color: var(--gorria);
+  font-weight: 700;
+  font-size: var(--testu-txikia);
+}
+
+.formakuntza-txartela h3 {
+  color: var(--gorria);
+  font-size: var(--testu-normala);
+  margin: 0.3rem 0;
+}
+
+.formakuntza-txartela .azpititulua {
+  color: var(--testu-grisa);
+  font-size: var(--testu-txikia);
+  margin-bottom: 0.3rem;
+}
+
+.taula-edukiontzia {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 420px; 
+}
+
+th, td {
+  text-align: left;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--ertza);
+  font-size: var(--testu-txikia);
+}
+
+th {
+  color: var(--testu-grisa);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.emaitza-irabazia {
+  color: var(--gorria);   
+  font-weight: 700;
+}
+
+.emaitza-galdua {
+  color: var(--testu-grisa); 
+  font-weight: 700;
+}
