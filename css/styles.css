@@ -421,3 +421,33 @@ th {
   color: var(--gorria);
   font-weight: 700;
 }
+
+
+/* MEDIA QUERY */
+@media (max-width: 767px) {
+  .orria {
+    flex-direction: column;   
+    align-items: stretch;
+    gap: var(--tartea);        
+  }
+
+  .albo-barra {
+    flex: none;          
+    position: static;       
+    border-radius: var(--erradio-handia);
+  }
+
+  .eduki-nagusia {
+    flex: none;
+  }
+
+  .goiburua,
+  .aurkezpena,
+  .atala {
+    border-radius: var(--erradio-handia); 
+  }
+
+  .zutabe-bikoitza {
+    grid-template-columns: 1fr; 
+  }
+}
